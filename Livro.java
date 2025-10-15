@@ -14,7 +14,7 @@ public class Livro {
     public double calcularTempoLeitura() {
         double minutosPagina = 3.0;
         double minutosTotal = quantidadePaginas * minutosPagina;
-        return minutosTotal / 180.0;
+        return minutosTotal / 60.0;
     }
     public void exibirInformacoes() {
         System.out.println("Título: " + titulo);
