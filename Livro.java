@@ -22,6 +22,7 @@ public class Livro {
         System.out.println("Ano de Publicação: " + anoPublicacao);
         System.out.println("Quantidade de Paginas: " + quantidadePaginas);
         System.out.printf("Tempo estimado de leitura: %.2f horas%n" , calcularTempoLeitura());
+        //Poderia ser feito dessa forma = System.out.println("Tempo estimado de leitura: " + calcularTempoLeitura() + "minutos");
     }
     public String getTitulo() { return titulo; }
     public void setTitulo(String titulo) { this.titulo = titulo; }
